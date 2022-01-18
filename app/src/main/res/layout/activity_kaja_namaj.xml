@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KajaNamaj"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/orange_button"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/imgArrow14"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/arrow"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="সকল নামাজের  নিয়ম ও নিয়ত"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="যথা :ফরজ অথবা আছরের নামা্জ কাযা হইলে নিম্নরূপ নিয়ত পড়তে হবে"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="ফজর নামাজের কাযার-দুই-রাক'আত ফরজ এর নিয়ত"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="☆ আরবি "
+                android:textColor="#F44336"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="نَوَايْتُ اَنْ اَقْضِ لِلَّّهِ تَعَالَى رَكْعَتَىْ صَلَوةِ الْفَجْرِالْفَائِتَةِ فَرْضُ اللَّهِ تَعَالَى مُتَوَجِّهًا اِلَى جِهَةِ الْكَعْبَةِ الشَّرِيْفَةِ اَللَّهُ اَكْبَرُ"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="☆ বাংলা "
+                android:textColor="#F44336"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="নাওয়াইতুয়ান আকদিয়া লিল্লাহি ত’আলা রাকাআতি ছালাতিল ফাজরি ফায়েতাতি ফারযুল্লাহি তা’আলা মোতাওয়াজ্জিহান ইলা জিহাতিল কাবাতিশ শারীফাতি আল্লাহু আকবার।"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="আছর নামাজের কাযার-চার-রাক'আত ফরজ এর নিয়ত"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="☆ আরবি"
+                android:textColor="#F44336"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="نَوَيْتُ اَنْ اَقْضِىَ لِلَّهِ تَعَا لَى اَرْبَعَ رَكْعَاتِ صَلَوةِ الْعَصْرِ الْفَا ئِتَةِ فَرْضُاللَّهِ تَعَا لَى مُتَوَجِّهًا اِلَى جِهَةِ الْكَعْبَةِالشَّرِيْفَةِ اَللَّهُ اَكْبَرُ"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="☆ বাংলা"
+                android:textColor="#F44336"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="নাওয়াইতুয়ান আকদিয়া লিল্লাহি ত’আলা আরবায়া রাকাআতি ছালাতিল আছরিল ফায়েতাতি ফারযুল্লাহি তা’আলা মোতাওয়াজ্জিহান ইলা জিহাতিল কাবাতিশ শারীফাতি আল্লাহু আকবার।"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="20dp"
+                android:layout_marginBottom="20dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

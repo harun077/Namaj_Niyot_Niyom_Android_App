@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KalemaRoddefur"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/orange_button"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/imgArrow14"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/arrow"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="সকল নামাজের  নিয়ম ও নিয়ত"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="اَللَّهُمَّ اِنِّىْ اَعُوْذُبِكَ مِنْ اَنْ اُشْرِكَ بِكَ شَيْئً وَاَنَا اعَلَمُ بِهِ وَاَسْتَغْفِرُكَ لِمَا اعَلَمُ بِهِ وَمَا لاَاعَلَمُ بِهِ تُبْتُ عَنْهُ وَتَبَرَّأتُ مِنَ الْكُفْرِ وَالشِّرْكِ وَالْمَعَاصِىْ كُلِّهَا وَاَسْلَمْتُ وَاَمَنْتُ وَاَقُوْلُ اَنْ لاَّاِلَهَ اِلاَّاللهُ مُحَمَّدُ رَّسَوْلُ اللهِ –"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20dp"
+                android:text="বাংলা: আল্লাহুম্মা ইন্নী আউযুবিকা মিন আন উশরিকা বিকা শাইআও ওয়া আনা আলামু বিহি ওয়া আসতাগ ফিরুকা লিমা আলামু বিহি ওয়ামা লা আলামু বিহি তুবতু আনহু ওয়া তাবাররাতু মিনাল কুফরি ওয়াশ্শির্কি ওয়াল মা আছি কুল্লিহা ওয়া আসলামতু ওয়া আমানতু ওয়া আক্বলু আল্লা ইলাহা ইল্লাল্লাহু মুহাম্মাদু রাসূলুল্লাহ ।"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="20dp"
+                android:layout_marginBottom="20dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shalatul"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/orange_button"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/imgArrow14"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/arrow"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="সকল নামাজের  নিয়ম ও নিয়ত"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="হাজাত প্রসঙ্গটি বুখারি, আবু দাউদ, তিরমিজি, নাসায়ি, ইবনে মাজাহ, মুসনাদে আহমাদ, মিশকাতসহ বহু হাদিস গ্রন্থে রয়েছে। পাক-পবিত্র হয়ে দোয়া, ইস্তিগফার ও কয়েকবার দরুদ শরিফ পড়ে একাগ্রতার সঙ্গে দুই রাকাত নফল নামাজ পড়তে হবে। নামাজ শেষে ১১ বার ‘ইয়া কাজিয়াল হাজাত’ (হে প্রয়োজন পূর্ণকারী) পড়বে এবং আরও কয়েকবার দরুদ শরিফ পড়ে ভক্তি ও মহব্বতের সঙ্গে উদ্দেশ্য পূর্ণ হওয়ার জন্য দোয়া ও মোনাজাত করতে হবে। "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="20dp"
+                android:layout_marginBottom="20dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JanazaNamaj"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/orange_button"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/imgArrow14"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/arrow"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="সকল নামাজের  নিয়ম ও নিয়ত"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="نَوَيْتُ اَنْ اُؤَدِّىَ لِلَّهِ تَعَا لَى اَرْبَعَ تَكْبِيْرَاتِ صَلَوةِ الْجَنَا زَةِ فَرْضَ الْكِفَايَةِ وَالثَّنَا ءُ لِلَّهِ تَعَا لَى وَالصَّلَوةُ عَلَى النَّبِىِّ وَالدُّعَا ءُلِهَذَا الْمَيِّتِ اِقْتِدَتُ بِهَذَا الاِْمَامِ مُتَوَجِّهًا اِلَى جِهَةِ الْكَعْبَةِ الشَّرِ يْفَةِ اَللَّهُ اَكْبَرُ"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="বাংলা : নাওয়াইতু আন উয়াদ্দিয়া লিল্লাহে তায়ালা আরবাআ তাকরীরাতে ছালাতিল জানাযাতে ফারযুল কেফায়াতে আচ্ছানাউ লিল্লাহি তায়ালা ওয়াচ্ছালাতু আলান্নাবীয়্যে ওয়াদ্দোয়াউ লেহাযাল মাইয়্যেতে এক্কতেদায়িতু বিহাযাল ইমাম মুতাওয়াজ্জিহান ইলা জিহাতিল কাবাতিশ শারিফাতে আললাহু আকবার।"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="سُبْحَا نَكَ اَللَّهُمَّ وَبِحَمْدِكَ وَتَبَارَكَ اسْمُكَ وَتَعَا لَى جَدُّكَ وَجَلَّ ثَنَاءُكَ وَلاَ اِلَهَ غَيْرُكَ"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="বাংলা : সুবহা-নাকা আল্লাহুম্মা ওয়া বিহামদিকা, ওয়া তাবারা কাসমুকা ওয়া তায়ালা জাদ্দুকা, ওয়া জাল্লা ছানাউকা ওয়া লা-ইলাহা গাইরুকা।অনুবাদঃ হে আল্লাহ আমরা তোমার পবিত্রতার গুণগান করিতেছি। তোমার নাম মংগলময় এবং তোমার স্তুতি অতি শ্রেষ্ঠ, তুমি ব্যতীত আর কেহই উপাস্য নাই।ছানার পরে তাকবীর বলিয়া তাশাহুদের পরের দরূদ পড়িতে হয়।"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="দুরুদ শরীফ"
+                android:textColor="#FF5722"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="اَللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى اَلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى اِبْرَا هِيْمَ وَعَلَى اَلِ اِبْرَ اهِيْمَ اِنَّكَ حَمِيْدٌ مَّجِيْدٌ- اَللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى اَلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى اِبْرَا هِيْمَ وَعَلَى اَلِ اِبْرَا هِيْمَ اِنَّكَ حَمِيْدٌمَّجِيْدٌ."
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="বাংলা : আল্লাহুম্মা সাল্লিআলা মুহাম্মাদিঁ ওয়া আলা আলি মুম্মাদিন কামা সাল্লাইতা আলাইব্রাহীমা ওয়া আলা আলি ইব্রাহীমা ইন্নাকা হামিদুম্মাজীদ। আল্লাহুম্মা বারিক আলা মুহাম্মাদিঁ ওয়া আলা আলি মুহাম্মাদিন কামা বারাকতা আলা ইব্রাহীমা ওয়া আলা আলি ইব্রাহীমা ইন্নাকা হামীদুম্মাজীদ।"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="জানাযার দোয়া"
+                android:textColor="#FF5722"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="اَلَّهُمَّ اغْفِرْلحَِيِّنَاوَمَيِّتِنَا وَشَاهِدِنَا وَغَائِبِنَا وَصَغِيْرِنَا وَكَبِيْرِنَا وَذَكَرِنَا وَاُنْثَا نَا اَللَّهُمَّ مَنْ اَحْيَيْتَهُ مِنَّا فَاَحْيِهِ عَلَى الاِْسْلاَمِ وَمَنْ تَوَفَّيْتَهُ مِنَّا فَتَوَفَّهُ عَلَىالاِْيمَانِ بِرَحْمَتِكَ يَاَارْ حَمَالرَّحِمِيْنَ"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="বাংলা : আল্লাহুম্মাগফিরলি হাইয়্যেনা ওয়া মাইয়্যিতিনা ওয়া শাহীদিনা ওয়া গায়িবিনা ও ছাগীরিনা ও কাবীরিনা ও যাকারিনা ও উনছানা। আল্লাহুম্মা মান আহইয়াইতাহু মিন্না ফাআহয়িহি আলাল ইসলামী ওয়া মান তাওয়াফ ফাইতাহু মিন্না ফাতাওয়াফ ফাহু আলাল ঈমান বেরাহমাতিকা ইয়া আর হামার রাহীমিন।"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text=" যদি নাবালক ছেলে হয় তবে নিচের দোয়া পড়তে হবে"
+                android:textColor="#FF5722"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="اَللَّهُمَّ اجْعَلْهُ لَنَا فَرْطًاوْ اَجْعَلْهُ لَنَا اَجْرً اوَذُخْرًا وَاجْعَلْهُ لَنَا شَا فِعًة وَمُشَفَّعًا-"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="বাংলা :আল্লাহুম্মাজ আলহুলানা ফারতাঁও ওয়াজ আলহুলানা আজরাও ওয়া যুখরাঁও ওয়াজ আলহুলানা শাফিয়াও ওয়া মুশাফ্ফায়ান।"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text=" যদি নাবালেগা মেয়ে হয় তবে নিচের দোয়া পড়তে হবে।"
+                android:textColor="#FF5722"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="اَللَّهُمَّ اجْعَلْهَ لَنَا فَرْطًا وَاجْعَلْهَ لَنَا اَجْرً اوَذُخْرًا وَاجْعَلْهَ لَنَا شَا فِعً وَمُشَفَّعًا"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="বাংলা : আল্লাহুম্মাজ আলহা লানা ফারতাঁও ওয়াজ আলহা লানা আজরাঁও ওয়া যুখরাঁও ওয়াজ আলহা লানা শাফিয়াও ওয়া মুশাফ্ফায়ান।"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="20dp"
+                android:layout_marginBottom="20dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

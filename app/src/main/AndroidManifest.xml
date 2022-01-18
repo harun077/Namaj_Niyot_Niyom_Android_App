@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ariyan.namajerniyotniyom">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NamajerNiyotNiyom">
+        <activity android:name=".AisharNamaj"></activity>
+        <activity android:name=".MagrifNamaj" />
+        <activity android:name=".AsorNamaj" />
+        <activity android:name=".JohorNamaj" />
+        <activity android:name=".FojorNamaj" />
+        <activity android:name=".FarojNamaj" />
+        <activity android:name=".KajaNamaj" />
+        <activity android:name=".TaimoVongerReason" />
+        <activity android:name=".TaimorSunnat" />
+        <activity android:name=".TaimorFaroj" />
+        <activity android:name=".TaimoKi" />
+        <activity android:name=".Taimo" />
+        <activity android:name=".JanazaNamaj" />
+        <activity android:name=".KalemaRoddefur" />
+        <activity android:name=".KalemaTamzid" />
+        <activity android:name=".KalemaTauhid" />
+        <activity android:name=".KalemaShahadat" />
+        <activity android:name=".KalemaTaiba" />
+        <activity android:name=".FiveKalema" />
+        <activity android:name=".RegularJikir" />
+        <activity android:name=".Riner" />
+        <activity android:name=".Shalatul" />
+        <activity android:name=".Manjil" />
+        <activity android:name=".Dukholil" />
+        <activity android:name=".TahiatulNamaj" />
+        <activity android:name=".NafolNamajerNiot" />
+        <activity android:name=".NafolNamajerShura" />
+        <activity android:name=".NafolNamaj" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
+    </application>
+
+</manifest>

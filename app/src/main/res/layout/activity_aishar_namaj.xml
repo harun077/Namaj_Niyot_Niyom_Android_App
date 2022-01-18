@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AisharNamaj"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/orange_button"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/imgArrow14"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/arrow"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="সকল নামাজের  নিয়ম ও নিয়ত"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="20dp"
+                android:layout_marginBottom="20dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+            </com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="* চার-রাকাত সুন্নত।"
+                android:textColor="#F44336"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="* চার-রাকাত ফরজ।"
+                android:textColor="#3F51B5"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="* দুই-রাকাত সুন্নত।"
+                android:textColor="#9C27B0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="* দুই-রাকাত নফল।"
+                android:textColor="#00BCD4"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="* তিন-রাকাত বেতর।"
+                android:textColor="#009688"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="* দুই-রাকাত নফল।"
+                android:textColor="#9C27B0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="এশার নামাজ ১৭ রাকাত:"
+                android:textColor="#03A9F4"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="এশার চার রাকাত সুন্নত নামাজের নিয়ত সমূহ:"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="আরবি :"
+                android:textColor="#F44336"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="نَوَيْتُ اَنْ اُصَلِّىَ لِلَّهِ تَعَالَى اَرْبَعَ رَكْعَتِ صَلَوةِ الْعِشَاءِسُنَّةُ رَسُوْلِ للَّهِ تَعَا لَى مُتَوَجِّهًا اِلَى جِهَةِ الْكَعْبَةِ الشَّرِ يْفَةِ اَللَّهُ اَكْبَرُ"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="বাংলা :"
+                android:textColor="#F44336"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="নাওয়াইতুয়ান উসালিয়া-লিল্লাহি তা’আলা আরবায়া রাকাআতি ছালাতিল এশাই সুন্নাতু রাসূলিল্লাহি তা’য়াল মোতাওয়াজ্জিহান ইলা জিহাতিল কাবাতিশ শারিফাতি আল্লাহু আকবর।"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="এশার চার রাকাত ফরজ নামাজের নিয়ত সমূহ:"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="আরবি :"
+                android:textColor="#F44336"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="نَوَيْتُ اَنْ اُصَلِّىَ لِلَّهِ تَعَا لَى اَرْبَعَ رَكْعَتِ صَلَوةِ الْعِشَءِ فَرْضُ اللَّهِ تَعَا لَى مُتَوَجِّهًا اِلَى جِهَةِ الْكَعْبَةِ الشَّرِ يْفَةِ اَللَّهُ اَكْبَرُ"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="বাংলা :"
+                android:textColor="#F44336"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="নাওয়াইতুয়ান উসালিয়া-লিল্লাহি তা’আলা আরবায়া রাকাআতি ছালাতিল এশাই ফারদুল্লাহি তা’য়াল মোতাওয়াজ্জিহান ইলা জিহাতিল কাবাতিশ শারিফাতি আল্লাহু আকবর"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="এশার দুই রাকাত সুন্নাত নামাজের নিয়ত সমূহ:"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="আরবি :"
+                android:textColor="#F44336"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="نَوَايْتُ اَنْ اُصَلِّىَ لِلَّّهِ تَعَالَى رَكْعَتَىْ صَلَوةِ الْعِشَاءِ سُنَّةُ رَسُوْلِ اللَّهِ تَعَالَى مُتَوَجِّهًا اِلَى جِهَةِ الْكَعْبَةِ الشَّرِيْفَةِ اَللَّهُ اَكْبَرُ"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="বাংলা :"
+                android:textColor="#F44336"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="নাওয়াইতুয়ান উসালিয়া-লিল্লাহি তা’আলা রাকায়াতি ছালাতিল এশাই সুন্নাতু রাসুলল্লাহি তা’য়ালা মোতাওয়াজ্জিহান ইলা জিহাতিল কা’বাতি শারিফাতি আল্লাহু আকবার।"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="এশার দুই রাকাত নফল নামাজের নিয়ত সমূহ:"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="আরবি :"
+                android:textColor="#F44336"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="نَوَيْتُ اَنْ اُصَلِّىَ لِلَّهِ تَعَا لَى رَكْعَتِ صَلَوةِالْنَفْلِ مُتَوَجِّهًا اِلَى جِهَةِ الْكَعْبَةِ الشَّرِ يْفَةِ اَللَّهُ اَكْبَرُ"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="বাংলা :"
+                android:textColor="#F44336"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="নাওয়াইতুয়ান উসালিয়া-লিল্লাহি তা’আলা রাকাআতি ছালাতিল নফলে মোহাওয়াজ্জিহান ইলা জিহাতিল কাবাতিশ শারীফাতি আল্লাহু আকবার।"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="এশার তিন রাকাত বেতর নামাজের নিয়ত সমূহ:"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="আরবি :"
+                android:textColor="#F44336"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="نَوَيْتُ اَنْ اُصَلِّىَ لِلَّهِ تَعَا لَى ثَلَثَ رَكْعَتِ صَلَوةِ الْوِتْرِوَاجِبُ اللَّهِ تَعَا لَى مُتَوَجِّهًا اِلَى جِهَةِ الْكَعْبَةِ الشَّرِ يْفَةِ اَللَّهُ اَكْبَرُ"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="বাংলা :"
+                android:textColor="#F44336"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="নাওয়াইতুয়ান উসালিয়া-লিল্লাহি তা’আলা সালাছা রাকায়াতি ছালাতিল বিতরে ওয়াজিবুল্লাহি তা’য়ালা মোতাওয়াজ্জিহান ইলা জিহাতিল কা’বাতিশ্ শারীফাতি আল্লাহু আকবার।"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="এশার দুই রাকাত নফল নামাজের নিয়ত সমূহ:"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="আরবি :"
+                android:textColor="#F44336"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="نَوَيْتُ اَنْ اُصَلِّىَ لِلَّهِ تَعَا لَى رَكْعَتِ صَلَوةِالْنَفْلِ مُتَوَجِّهًا اِلَى جِهَةِ الْكَعْبَةِ الشَّرِ يْفَةِ اَللَّهُ اَكْبَرُ"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="বাংলা :"
+                android:textColor="#F44336"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="নাওয়াইতুয়ান উসালিয়া-লিল্লাহি তা’আলা রাকাআতি ছালাতিল নফলে মোহাওয়াজ্জিহান ইলা জিহাতিল কাবাতিশ শারীফাতি আল্লাহু আকবার।"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="20dp"
+                android:layout_marginBottom="20dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
